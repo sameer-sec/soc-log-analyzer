@@ -1,0 +1,20 @@
+TimeCreated,EventID,Level,Source,Message,Computer,UserName
+2025-01-15 10:00:01,4624,Information,Microsoft-Windows-Security-Auditing,An account was successfully logged on,WORKSTATION01,jsmith
+2025-01-15 10:01:00,4625,Warning,Microsoft-Windows-Security-Auditing,An account failed to log on,WORKSTATION01,administrator
+2025-01-15 10:01:05,4625,Warning,Microsoft-Windows-Security-Auditing,An account failed to log on,WORKSTATION01,administrator
+2025-01-15 10:01:10,4625,Warning,Microsoft-Windows-Security-Auditing,An account failed to log on,WORKSTATION01,administrator
+2025-01-15 10:01:15,4625,Warning,Microsoft-Windows-Security-Auditing,An account failed to log on,WORKSTATION01,administrator
+2025-01-15 10:01:20,4625,Warning,Microsoft-Windows-Security-Auditing,An account failed to log on,WORKSTATION01,administrator
+2025-01-15 10:01:25,4625,Warning,Microsoft-Windows-Security-Auditing,An account failed to log on,WORKSTATION01,administrator
+2025-01-15 10:02:00,4720,Warning,Microsoft-Windows-Security-Auditing,A user account was created,DC01,SYSTEM
+2025-01-15 10:02:10,4732,Warning,Microsoft-Windows-Security-Auditing,A member was added to a security-enabled local group,DC01,SYSTEM
+2025-01-15 10:03:00,4688,Information,Microsoft-Windows-Security-Auditing,A new process has been created - cmd.exe,WORKSTATION01,jsmith
+2025-01-15 10:03:05,4688,Information,Microsoft-Windows-Security-Auditing,A new process has been created - powershell.exe -enc JABjAGwAaQBlAG4AdA,WORKSTATION01,jsmith
+2025-01-15 10:04:00,7045,Warning,Service Control Manager,A new service was installed - svch0st,WORKSTATION01,SYSTEM
+2025-01-15 10:04:30,4698,Warning,Microsoft-Windows-Security-Auditing,A scheduled task was created,WORKSTATION01,jsmith
+2025-01-15 10:05:00,4656,Information,Microsoft-Windows-Security-Auditing,A handle to an object was requested - lsass.exe,WORKSTATION01,jsmith
+2025-01-15 10:06:00,1102,Warning,Microsoft-Windows-Security-Auditing,The audit log was cleared,DC01,administrator
+2025-01-15 10:07:00,4624,Information,Microsoft-Windows-Security-Auditing,An account was successfully logged on,WORKSTATION02,mwilson
+2025-01-15 10:08:00,4672,Information,Microsoft-Windows-Security-Auditing,Special privileges assigned to new logon,DC01,administrator
+2025-01-15 10:09:00,4648,Warning,Microsoft-Windows-Security-Auditing,A logon was attempted using explicit credentials,WORKSTATION01,jsmith
+2025-01-15 10:10:00,4625,Warning,Microsoft-Windows-Security-Auditing,An account failed to log on,WORKSTATION02,mwilson

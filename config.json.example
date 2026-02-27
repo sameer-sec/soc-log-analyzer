@@ -1,0 +1,11 @@
+{
+  "_comment": "Copy this to config.json and fill in your values, OR use environment variables (recommended)",
+  "email": {
+    "smtp_server": "smtp.gmail.com",
+    "smtp_port": 587,
+    "smtp_user": "your_email@gmail.com",
+    "smtp_password": "your_app_password_here",
+    "from_addr": "your_email@gmail.com",
+    "to_addr": "soc_team@company.com"
+  }
+}

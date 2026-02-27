@@ -1,0 +1,23 @@
+# Auto-generated folders
+reports/
+db/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Personal log files
+logs/samples/better_export.csv
+logs/samples/Sameer PC logs.csv
+
+# Secrets
+config.json
+.env
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# VS Code
+.vscode/
