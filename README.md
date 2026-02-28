@@ -135,19 +135,6 @@ The response includes:
 
 ---
 
-## Google Cybersecurity Certificate Connections
-
-| Project Feature | Certificate Course |
-|----------------|-------------------|
-| Log parsing & regex | Course 6: Sound the Alarm |
-| Brute force detection | Course 6: Detection & Response |
-| MITRE ATT&CK mapping | Course 6 + Course 7 |
-| SQLite storage | Course 7: Automate Cybersecurity Tasks |
-| Python automation | Course 7: Python |
-| Linux log analysis | Course 3: Linux & SQL |
-
----
-
 ## Sample Output
 
 ```
